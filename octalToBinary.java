@@ -1,5 +1,6 @@
 package numberSystem;
 
+//Convert Octal to Binary
 import java.util.Scanner;
 
 public class octalToBinary {
@@ -7,8 +8,8 @@ public class octalToBinary {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("enter a num: ");
-        String octal=sc.nextLine();
-        int num = Integer.parseInt(octal,8);
+        String octal = sc.nextLine();
+        int num = Integer.parseInt(octal, 8);
         String binary = Integer.toBinaryString(num);
         System.out.println(binary);
         sc.close();
